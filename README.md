@@ -16,6 +16,12 @@ Todas as atividades serão desenvolvidas através do Google Classroom. Lembre-se
 
 ## Preparação do ambiente de desenvolvimento
 
+Clique no link abaixo para acessar o documento que confecionamos em aula e contempla o processo de preparação do ambiente de desenvolvimento da disciplina:
+
+[PREPARAÇÃO DO AMBIENTE](hthttps://docs.google.com/document/d/1H0YHy7HAcrApTEqdVagDEqbouThAHmFQZqlt7rRxPiE/edit?usp=sharing)
+
+Lembre-se que é preciso utilizar seu e-mail institucional (@uni9.edu.br) para acessar o documento.
+
 ## Critérios de avaliação
 
 Sua nota é composta unica e exclusivamente pelas atividades da disciplina. Média simples.
