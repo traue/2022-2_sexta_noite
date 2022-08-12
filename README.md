@@ -18,7 +18,7 @@ Todas as atividades serão desenvolvidas através do Google Classroom. Lembre-se
 
 Clique no link abaixo para acessar o documento que confecionamos em aula e contempla o processo de preparação do ambiente de desenvolvimento da disciplina:
 
-[PREPARAÇÃO DO AMBIENTE](hthttps://docs.google.com/document/d/1H0YHy7HAcrApTEqdVagDEqbouThAHmFQZqlt7rRxPiE/edit?usp=sharing)
+[PREPARAÇÃO DO AMBIENTE](https://docs.google.com/document/d/1H0YHy7HAcrApTEqdVagDEqbouThAHmFQZqlt7rRxPiE/edit?usp=sharing)
 
 Lembre-se que é preciso utilizar seu e-mail institucional (@uni9.edu.br) para acessar o documento.
 
