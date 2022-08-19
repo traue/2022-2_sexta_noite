@@ -4,7 +4,7 @@ Turma 29 - Sextas - noturno
 
 **E-mail do professor:** thiago.traue@uni9.pro.br
 
-**Classroom da disciplina:** Em breve
+**Classroom da disciplina:** [NESTE LINK](https://classroom.google.com/c/NDg4ODEyMTIzNDI3?cjc=7s7ogo5)
 
 ---
 
