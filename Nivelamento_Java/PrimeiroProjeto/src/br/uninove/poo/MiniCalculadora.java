@@ -36,3 +36,5 @@ public class MiniCalculadora {
         
     }
 }
+
+//DESAFIO 2: IMPLEMENTAR UMA DESSA PARA IMC (com a classificação!)
