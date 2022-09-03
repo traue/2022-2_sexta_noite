@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora IMC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Calculadora IMC</h1>
+        <hr>
+        <form method="post" action="resultado.jsp">
+            
+            <label>Informe o peso:</label>
+            <input type="number" name="peso" required>
+            
+            <br><br>
+            
+            <label>Informe a altura:</label>
+            <input type="number" name="altura" step="0.01" required>
+            
+            <br><br>
+            
+            <input type="submit" value="Calcular o IMC">
+            
+        </form>
+    </body>
+</html>

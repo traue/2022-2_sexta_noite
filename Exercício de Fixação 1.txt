@@ -1,0 +1,28 @@
+Baseado na calculadora IMC que desenvolvemos em aula, crie uma 
+pequena calculadora de equações quadráticas utilizando o método de 
+Bhaskara!
+
+O que é uma eq. quadrádita? 
+> Ela sempre terá este "formato": ax² + bx + c = 0
+
+Portanto devem ser lidos o "a", "b" e "c".
+
+E como calcula usando Bhaskara?
+
+1º passo: Calcular o Delta
+
+    Delta = b² - 4 * a * c
+
+2º passo: calcular as raízes
+
+    X'  = (-b + raiz(delta)) / (2 * a)
+    X'' = (-b - raiz(delta)) / (2 * a)
+
+
+Lembrese:
+ - "a" não pode ser 0!
+ - se o delta der negativo, não há raízes reais (não calcular)
+
+
+Para saber mais:
+    - https://brasilescola.uol.com.br/matematica/formula-bhaskara.htm
