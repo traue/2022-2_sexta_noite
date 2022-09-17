@@ -10,4 +10,9 @@ O usuário deverá informar:
  - O valor total gasto em pegágios, se houve (em R$)
 
 O sistema deve calcular o valor (em R$) gasto nessa viagem e exibir ao usuário um 
-resumo da viagem dele. 
+resumo da viagem dele. Este resumo deve conter:
+
+ - Todas as informações fornecidas (distância, consumo, preço do combustível e pegágios)
+ - Quantos litros de combustível foram utilizados
+ - Total gasto com combustível
+ - Total gasto na viagem (combustível + pedágios, se houver)
