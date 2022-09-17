@@ -1,0 +1,13 @@
+Desafio do tio:
+
+Implemente uma solução em JSP (usando qualquer uma das formas de programar que 
+vimos até então) que ajude um usuário a calcular o gasto total com uma viagem.
+
+O usuário deverá informar:
+ - A distância percorrida na viagem (em Km)
+ - O consumo médio do veíulo (em Km/L)
+ - O valor pago no combustível (em R$)
+ - O valor total gasto em pegágios, se houve (em R$)
+
+O sistema deve calcular o valor (em R$) gasto nessa viagem e exibir ao usuário um 
+resumo da viagem dele. 
