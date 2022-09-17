@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu Terreno</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .corpo {
+                margin-top: 40px;
+                margin-left: 20px;
+            }
+
+            .corpo p {
+                font-family: fantasy;
+                font-size: 22px;
+            }
+
+            .corpo label {
+                font-family: fantasy;
+                font-size: 18px;
+            }
+
+            input[type=number] {
+                font-size: 20px;
+                width: 80px;
+            }
+
+            input[type=submit] {
+                font-size: 20px;
+                width: 150px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Cálculos do Terreno</h1>
+        <hr>
+        <div class="corpo">
+            <p>Informe os dados do terreno:</p>
+            <form method="post" action="CalcularTerreno">
+
+                <label>Metragem de frente: </label>
+                <input type="number" name="frente" required>
+                <label>m</label>
+
+                <br><br>
+
+                <label>Comprimento do terreno:</label>
+                <input type="number" name="comprimento" required>
+                <label>m</label>
+
+                <br><br>
+
+                <input type="submit" value="Calcular">
+            </form>
+        </div>
+    </body>
+</html>
