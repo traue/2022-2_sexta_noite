@@ -10,7 +10,9 @@ Turma 29 - Sextas - noturno
 
 ## Atividades
 
-- Essa disciplina ainda não demanda atividades
+Todas as atividades estão listadas abaixo. Elas sempre finalizam às 19:35 do dia informado.
+
+- **Atividade 1**: De 23.09 até 21.10
 
 Todas as atividades serão desenvolvidas através do Google Classroom. Lembre-se que É PRECISO utilizar seu e-mail insticucional (@uni9.edu.br) para acessar
 
