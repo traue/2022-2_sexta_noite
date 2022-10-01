@@ -11,6 +11,8 @@
         <hr>
            
         <%
+            request.setCharacterEncoding("UTF-8");
+            
             String nome = request.getParameter("nome");
             String idade = request.getParameter("idade");
             
@@ -20,8 +22,8 @@
             Cookie cookieNome = new Cookie("nomeUsuario", nomeCodificado);
             Cookie cookieIdade = new Cookie("idadeUsuario", idadeCodificada);
             
-            cookieNome.setMaxAge(120); //em segundo
-            cookieIdade.setMaxAge(120);
+            cookieNome.setMaxAge(120); //em segundos
+            //cookieIdade.setMaxAge(120);
             
             response.addCookie(cookieNome);
             response.addCookie(cookieIdade); 
