@@ -1,3 +1,7 @@
+* {
+    font-family: fantasy;
+}
+
 .textoInfo {
     text-align: center;
     font-size: 18px;
@@ -37,4 +41,23 @@
     width: 80%;
     font-size: 18px;
     font-weight: bold;
+}
+
+.boxPrincipal h3 {
+    text-align: center;
+}
+
+.boxPrincipal h2 {
+    text-align: center;
+}
+
+.linkVoltar {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.linkVoltar a {
+    text-decoration: none;
+    color: blueviolet;
 }
