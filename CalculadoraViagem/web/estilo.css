@@ -1,0 +1,40 @@
+.textoInfo {
+    text-align: center;
+    font-size: 18px;
+}
+
+.boxPrincipal {
+    border: 1px dotted blueviolet;
+    border-radius: 5px;
+    margin: auto;
+    width: 500px;
+    font-size: 20px;
+    background: ghostwhite;
+    padding: 10px;
+}
+
+
+.campo-form {
+    display: block;
+    margin: 20px 0px 20px 20px;
+}
+
+.campo-form input[type="number"] {
+    width: 80px;
+    font-size: 20px;
+}
+
+.btn-form {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-calc[type="submit"] {
+    color: blueviolet;
+    border-radius: 5px;
+    background-color: aqua;
+    width: 80%;
+    font-size: 18px;
+    font-weight: bold;
+}

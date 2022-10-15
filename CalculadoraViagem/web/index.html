@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora da Viagem</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <h1>Calculadora da Viagem</h1>
+        <hr>
+
+        <div class="textoInfo">
+            <p>Informe abaixo os dados da viagem</p>
+        </div>
+
+        <div class="boxPrincipal">
+            <form method="post" action="">
+
+                <div class="campo-form">
+                    <label>Distância total: </label>
+                    <input type="number" name="distancia" min="0" required>
+                    <label>Km</label>
+                </div>
+
+                <div class="campo-form">
+                    <label>Consumo médio do veículo: </label>
+                    <input type="number" name="consumo" step="0.01" min="0" required>
+                    <label>Km/L</label>
+                </div>
+
+                <div class="campo-form">
+                    <label>Valor médio do combustível: R$ </label>
+                    <input type="number" name="combustivel" step="0.001" min="0" required>
+                </div>
+
+                <div class="campo-form">
+                    <label>Total gasto com pedágios: R$ </label>
+                    <input type="number" name="pedagio" step="0.01" min="0" required>
+                </div>
+
+                <div class="btn-form">
+                    <input class="btn-calc" type="submit" value="Calcular Gastos">
+                </div>
+
+            </form>
+        </div>
+
+    </body>
+</html>
