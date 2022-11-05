@@ -20,16 +20,21 @@
         <div class="pgLogin">
             <div class="container mt100">
                 <div class="login">
-                    <form>
+                    <form method="post" action="LoginController">
                         <div class="mb-3">
                             <label class="form-label">Usuário</label>
-                            <input type="text" required class="form-control" aria-describedby="emailHelp">
+                            <input type="text" 
+                                   required class="form-control" 
+                                   name="usuario">
                         </div>
                         <div class="mb-4">
                             <label class="form-label">Senha</label>
-                            <input type="password" required class="form-control">
+                            <input type="password" 
+                                   required class="form-control" 
+                                   name="senha">
                         </div>
-                        <button type="submit" class="btn btn-dark w-100">Entrar</button>
+                        <button type="submit" 
+                                class="btn btn-dark w-100">Entrar</button>
                     </form>
                 </div>
             </div>
