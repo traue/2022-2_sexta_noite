@@ -14,7 +14,9 @@ Todas as atividades estão listadas abaixo. Elas sempre finalizam às 19:35 do d
 
 - **Atividade 1**: De 23.09 até 21.10 - Encerrada
 - **Atividade 2**: De 23.09 até 04.11 - Encerrada
-- **Atividade 3**: De 21.10 até 11.11
+- **Atividade 3**: De 21.10 até 11.11 - Encerrada
+- **Atividade 4**: De 11.11 até 25.11
+
 
 Todas as atividades serão desenvolvidas através do Google Classroom. Lembre-se que É PRECISO utilizar seu e-mail insticucional (@uni9.edu.br) para acessar
 
