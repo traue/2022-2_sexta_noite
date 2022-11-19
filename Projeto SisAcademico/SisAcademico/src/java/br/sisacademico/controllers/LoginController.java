@@ -1,12 +1,15 @@
 package br.sisacademico.controllers;
 
+import br.sisacademico.dao.UsuarioDAO;
 import br.sisacademico.helpers.MD5;
+import br.sisacademico.model.Usuario;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 public class LoginController extends HttpServlet {
 
@@ -17,10 +20,19 @@ public class LoginController extends HttpServlet {
 
             String usuario = request.getParameter("usuario");
             String senha = MD5.hashText(request.getParameter("senha"));
-
-
-            out.print("Usuario: " + usuario + "<br>");
-            out.print("Senha: " + senha + "<br>");
+            
+            UsuarioDAO uDAO = new UsuarioDAO();
+            Usuario u = uDAO.autentica(usuario, senha);
+            HttpSession session = request.getSession();
+            
+            if (u.isAutenticado()) {
+                //adiciona o usuário à sessão e redireciona pro painel
+                session.setAttribute("user", u);
+                response.sendRedirect("./painel");
+                return;
+            }
+            
+            response.sendRedirect("./?authError=true");
 
         }
     }

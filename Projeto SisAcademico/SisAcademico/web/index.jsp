@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -35,9 +36,17 @@
                         </div>
                         <button type="submit" 
                                 class="btn btn-dark w-100">Entrar</button>
+                                
+                        <% if (Boolean.parseBoolean(request.getParameter("authError"))) { %>
+                            <div class="loginError">
+                                <b>Erro de autenticação!</b>
+                            </div>
+                        <% } %>
+                        
                     </form>
                 </div>
             </div>
         </div>
     </body>
 </html>
+

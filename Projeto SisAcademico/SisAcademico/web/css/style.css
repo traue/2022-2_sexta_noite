@@ -18,3 +18,8 @@
 body {
     background-color: rgb(50,50,50);
 }
+
+.loginError {
+    margin-top: 10px;
+    color: red;
+}
