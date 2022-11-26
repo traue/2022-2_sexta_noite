@@ -18,12 +18,20 @@ public class LoginController extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try ( PrintWriter out = response.getWriter()) {
 
+            HttpSession session = request.getSession();
+            
+            if (request.getParameter("signOut") != null) {
+                session.invalidate();
+                response.sendRedirect("./");
+                return;
+            }
+            
             String usuario = request.getParameter("usuario");
             String senha = MD5.hashText(request.getParameter("senha"));
             
             UsuarioDAO uDAO = new UsuarioDAO();
             Usuario u = uDAO.autentica(usuario, senha);
-            HttpSession session = request.getSession();
+            
             
             if (u.isAutenticado()) {
                 //adiciona o usuário à sessão e redireciona pro painel
