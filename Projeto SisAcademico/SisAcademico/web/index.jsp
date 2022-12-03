@@ -43,10 +43,16 @@
                             </div>
                         <% } %>
                         
+                        <% if (request.getParameter("accessDenied") != null) { %>
+                            <div class="loginError">
+                                <b>Acesso negado! Faça login para continuar!</b>
+                            </div>
+                        <% } %>
+                        
                     </form>
                 </div>
             </div>
         </div>
-    </body>
+    </body>     
 </html>
 

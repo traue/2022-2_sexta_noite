@@ -4,9 +4,17 @@
         <servlet-name>LoginController</servlet-name>
         <servlet-class>br.sisacademico.controllers.LoginController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CursoController</servlet-name>
+        <servlet-class>br.sisacademico.controllers.CursoController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginController</servlet-name>
         <url-pattern>/LoginController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CursoController</servlet-name>
+        <url-pattern>/CursoController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
